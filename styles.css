@@ -20,3 +20,51 @@ html {
 .inp-search {
     width: 400px;
 }
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    align-content: flex-start;
+}
+
+.like {
+    width: 30px;
+    height: 30px;
+}
+
+.main-video{
+    float: left;
+    margin-left: 30px;
+}
+
+.recom-list {
+    list-style: none;
+}
+.no-views {
+    max-width: 350px;
+}
+h3 {
+    font-size: 25px;
+}
+.dislike {
+    max-width: 25px;
+    padding: 0px 10px 0px 10px;
+}
+
+.btn-sub{
+    background-color: red;
+    border-color: transparent;
+    height: 30px;
+}
+
+#views{
+    text-align: right;
+    font-size: 20px;
+    float: right;
+}
+
+.video1{
+    border: 0px;
+}
