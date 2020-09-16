@@ -11,13 +11,16 @@ We created a header with a navbar with a search-bar. There is also a main video 
 
 ## Built With
 
-- HTML
-- CSS
+- HTML5
+- CSS3
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/jcy2704/Youtube-HTML/44b44db259d4b524fdbd06ffdbb3050c467731ed/index.html)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Hello! We are Microverse students. We created a basic HTML project based on the video platform Youtube. It includes the HTML file as well as the CSS styling file. Below you will find the instructions on how you may see our work**
 
 
 To get a local copy up and running follow these simple example steps.
