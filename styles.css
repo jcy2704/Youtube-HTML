@@ -64,7 +64,24 @@ h3 {
     font-size: 20px;
     float: right;
 }
-
+.recom-videos {
+    margin-right: 85px;
+    padding-right: 35px;
+}
 .video1{
     border: 0px;
+} 
+.no-views {
+    margin: 5px 5px 5px 5px;
+}
+.more-videos {
+    display: flex;
+    padding-right: 150px;
+    padding-left: 35px ;
+}
+.titles {
+    order: 0;
+}
+.views {
+    align-self: flex-end;
 }
