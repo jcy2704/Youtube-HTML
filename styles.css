@@ -1,0 +1,22 @@
+html {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    border: 25px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+#logo {
+    max-height: 60px;
+}
+.emb-img {
+    max-height: 35px;
+    margin-left: 13px;
+}
+.inp-search {
+    width: 400px;
+}
