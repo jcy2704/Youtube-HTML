@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Youtube Video Page Copy for Collaborative project</title>
+    <script src="https://kit.fontawesome.com/4a45c2a2dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
 
@@ -12,7 +13,7 @@
         <nav class="nav-bar">
             <div class="form">
                 <input class="inp-search" type="text" placeholder="Search">
-                <button class="btn-search">Search</button>
+                <button class="btn-search"><i class="fas fa-search"></i></button>
             </div>
         </nav>
         <div class="rightnav">
@@ -26,27 +27,47 @@
 <section class="main-section">
     <section class="main-video">
         <div class="vid-frame">
-            <iframe class="video1" width="850" height="515" src="https://www.youtube.com/embed/lJIrF4YjHfQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video1" width="1031" height="580" src="https://www.youtube.com/embed/lJIrF4YjHfQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="vid-title">
-            <h2 style="font-size: 25px;">Embed Videos and playlists</h2>
+        <div class="prof-panel">
+                <h2 style="font-size: 25px; margin-bottom: 5px;">Embed Videos and playlists</h2>
+            <div class="bot-prof-panel">
+                <div style="display: flex; width: 80px;">
+                <p id="views">1,234 views</p>
+                </div>
+                    <div class="like-sec">
+                        <ul class="like-list">
+                            <li>
+                                <a  href="#"><i class="fas fa-thumbs-up"></i>1,000</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fas fa-thumbs-down"></i>40</a>
+                            </li>
+                            <li>
+                                <button class="btn-share">Share</button>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
         </div>
         <div class="profile-sec">
             <img class="profile" src="https://yt3.ggpht.com/a/AATXAJwyEv0uEyk3JLskjLiUCqSVzsGmpWw2icLfBOBzWg=s48-c-k-c0xffffffff-no-rj-mo" alt="video profile pic">
-            <span style="font-size: 20px;">Youtube</span>
+            <div class="profile-details">
+                <h4 style="font-size: 20px; margin: 0px 0px 0px 0px">Youtube</h4>
+                <p style="font-size: 14px; margin-top: 0px;">8,04 M Subscribers</p> 
+            </div>
             <button class="btn-sub">Subscribe</button>
-            <p id="views">1,234 views</p>
         </div>
-        <div class="like-sec">
-            <a href="#"><img src="assests/514-5148544_youtube-like-button-png-transparent-png.jpg" alt="like button" style="width: 30px; height: 30px;"></a>
-            <img class="dislike" src="assests/dislike-icon.png" alt="dislike button">
-            <button class="btn-share">Share</button>
-        </div>
+        
     </section>
     
 <!--Sidebar with list of recommended videos-->
+    <div class="sidebar">
         <aside class="recom-videos">
             <ul class="recom-list">
+<<<<<<< HEAD
                 <li class="more-videos">
                     <img class="no-views" src="assests/thumbnails-1.png" alt="video thumbnail">
                     <h3 class="titles">Title video 1</h3>
@@ -85,10 +106,53 @@
 
                 <li class="more-videos">
                     <img class="no-views" src="assests/thumbnails-7.jpg" alt="video thumbnail">
+=======
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-1.png" alt="video thumbnail">
+                    <div class="vid-title">
+                    <h3>Title video 1</h3>
+                    <p>1,456 Views</p>
+                    </div>
+                </li>
+
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-2.jpg" alt="video thumbnail">
+                    <h3>Title video 2</h3>
+                    <p>1,456 Views</p>
+                </li>
+
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-3.jpg" alt="video thumbnail">
+                    <h3>Title video 3</h3>
+                    <p>1,456 Views</p>
+                </li>
+
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-4.jpg" alt="video thumbnail">
+                    <h3>Title video 4</h3>
+                    <p>1,456 Views</p>
+                </li>
+
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-5.jpg" alt="video thumbnail">
+                    <h3>Title video 5</h3>
+                    <p>1,456 Views</p>
+                </li>
+
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-6.jpg" alt="video thumbnail">
+                    <h3>Title video 6</h3>
+                    <p>1,456 Views</p>
+                </li>
+
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-7.jpg" alt="video thumbnail">
+>>>>>>> 3a95986bdaeda75f4efe4790740d9d221f52a08b
                     <h3>Title video 7</h3>
                     <p class="views">1,456 Views</p>
                 </li>
 
+<<<<<<< HEAD
                 <li class="more-videos">
                      <img class="no-views" src="assests/thumbnails-8.jpg" alt="video thumbnail">
                     <h3 class="titles">Title video 8</h3>
@@ -105,8 +169,27 @@
                     <img class="no-views" src="assests/thumbnails-10.jpg" alt="video thumbnail">
                     <h3 class="titles">Title video 10</h3>
                     <p class="views">1,456 Views</p>
+=======
+                <li>
+                     <img class="thumbnail" src="assests/thumbnails-8.jpg" alt="video thumbnail">
+                    <h3>Title video 8</h3>
+                    <p>1,456 Views</p>
+                </li>
+
+                <li>   
+                    <img class="thumbnail" src="assests/thumbnails-9.png" alt="video thumbnail">
+                    <h3>Title video 9</h3>
+                    <p>1,456 Views</p>
+                </li>
+
+                <li>
+                    <img class="thumbnail" src="assests/thumbnails-10.jpg" alt="video thumbnail">
+                    <h3>Title video 10</h3>
+                    <p>1,456 Views</p>
+>>>>>>> 3a95986bdaeda75f4efe4790740d9d221f52a08b
                  </li>
             </ul>   
         </aside>
+    </div>
     </section>
 </html>

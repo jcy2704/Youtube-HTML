@@ -17,10 +17,20 @@ html {
     max-height: 35px;
     margin-left: 13px;
 }
+.form{
+    display: flex;
+}
 .inp-search {
     width: 400px;
+    margin-right: 0px;
 }
-
+.btn-search{
+    height: 30px;
+    width: 60px;
+    margin-left: 0px;
+    border-left: 0;
+    border-width: 1px;
+}
 aside {
     width: 30%;
     padding-left: 15px;
@@ -33,7 +43,26 @@ aside {
     width: 30px;
     height: 30px;
 }
+.like-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
+.like-list{
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+}
+
+.like-list li{
+    float: right;
+}
+
+.like-list li a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
 .main-video{
     float: left;
     margin-left: 30px;
@@ -42,8 +71,9 @@ aside {
 .recom-list {
     list-style: none;
 }
-.no-views {
-    max-width: 350px;
+.thumbnail {
+    width: 160px;
+    height: 94px;
 }
 h3 {
     font-size: 25px;
@@ -57,12 +87,14 @@ h3 {
     background-color: red;
     border-color: transparent;
     height: 30px;
+    float: right;
+    margin-top: 17px;
 }
 
 #views{
-    text-align: right;
-    font-size: 20px;
-    float: right;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 0px;
 }
 .recom-videos {
     margin-right: 85px;
@@ -70,6 +102,7 @@ h3 {
 }
 .video1{
     border: 0px;
+<<<<<<< HEAD
 } 
 .no-views {
     margin: 5px 5px 5px 5px;
@@ -84,4 +117,33 @@ h3 {
 }
 .views {
     align-self: flex-end;
+=======
+}
+
+.recom-videos{
+    min-width: 300px;
+    margin-top: -15px;
+    display: block;
+}
+
+.main-section{
+    padding-top: 25px;
+}
+
+.vid-title{
+    display: inline-block;
+
+}
+
+.profile-details{
+    display: inline-block;
+}
+
+.profile-sec{
+    vertical-align: center;
+}
+
+.prof-panel{
+    width: 1031px;
+>>>>>>> 3a95986bdaeda75f4efe4790740d9d221f52a08b
 }
