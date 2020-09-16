@@ -102,30 +102,24 @@ h3 {
 }
 .video1{
     border: 0px;
-<<<<<<< HEAD
 } 
 .no-views {
     margin: 5px 5px 5px 5px;
+    max-width: 330px;
 }
-.more-videos {
+.thumnbails {
     display: flex;
     padding-right: 150px;
     padding-left: 35px ;
 }
 .titles {
     order: 0;
+    align-self: flex-start;
 }
 .views {
     align-self: flex-end;
-=======
+    justify-content: flex-end;
 }
-
-.recom-videos{
-    min-width: 300px;
-    margin-top: -15px;
-    display: block;
-}
-
 .main-section{
     padding-top: 25px;
 }
@@ -145,5 +139,4 @@ h3 {
 
 .prof-panel{
     width: 1031px;
->>>>>>> 3a95986bdaeda75f4efe4790740d9d221f52a08b
 }
