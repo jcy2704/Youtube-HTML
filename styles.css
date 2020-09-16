@@ -31,6 +31,7 @@ html {
     border-left: 0;
     border-width: 1px;
 }
+
 aside {
     width: 30%;
     padding-left: 15px;
@@ -43,10 +44,12 @@ aside {
     width: 30px;
     height: 30px;
 }
+
 .like-sec{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-top: -20px;
 }
 
 .like-list{
@@ -56,13 +59,16 @@ aside {
 }
 
 .like-list li{
-    float: right;
+    float: left;
+    padding: 10px;
 }
 
 .like-list li a{
     text-decoration: none;
     color: rgb(85, 85, 85);
 }
+
+
 .main-video{
     float: left;
     margin-left: 30px;
@@ -85,29 +91,48 @@ h3 {
 
 .btn-sub{
     background-color: red;
-    border-color: transparent;
+    border: 0px;
+    width: 100px;
     height: 30px;
     float: right;
     margin-top: 17px;
+    border-radius: 5%;
+    font-weight: bold;
+    color: white;
 }
 
 #views{
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 0px;
 }
 .recom-videos {
-    margin-right: 85px;
-    padding-right: 35px;
-}
-.video1{
-    border: 0px;
+    margin-top: -17px;
 }
 
-.recom-videos{
-    min-width: 300px;
-    margin-top: -15px;
-    display: block;
+.video1{
+    border: 0px;
+} 
+
+.no-views {
+    margin: 5px 5px 5px 5px;
+    max-width: 330px;
+}
+
+.thumnbails {
+    display: flex;
+    padding-right: 150px;
+    padding-left: 35px ;
+}
+
+.titles {
+    order: 0;
+    align-self: flex-start;
+}
+
+.views {
+    align-self: flex-end;
+    justify-content: flex-end;
 }
 
 .main-section{
@@ -116,7 +141,14 @@ h3 {
 
 .vid-title{
     display: inline-block;
+    border-bottom: 1px solid gray;
+}
 
+.profile{
+    position: relative;
+    top: 7px;
+    padding-right: 10px;
+    display: inline-block;
 }
 
 .profile-details{
@@ -125,9 +157,28 @@ h3 {
 
 .profile-sec{
     vertical-align: center;
+    padding-top: 16px;
 }
 
 .prof-panel{
     width: 1031px;
->>>>>>> 3a95986bdaeda75f4efe4790740d9d221f52a08b
+}
+
+.bot-prof-panel{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.comment-sec{
+    padding-left: 62px;
+    padding-bottom: 10px;
+}
+
+.bottom-section{
+    border-bottom: 1px solid gray;
+}
+
+.vid-titles{
+    display: inline-block;
 }
