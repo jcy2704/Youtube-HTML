@@ -173,7 +173,7 @@ h3 {
     height: 40px;
 }
 
-.comment-sec{
+.description{
     padding-left: 62px;
     padding-bottom: 10px;
 }
@@ -185,3 +185,37 @@ h3 {
 .vid-titles{
     display: inline-block;
 }
+/*Comments section*/
+.container-c1{
+    display: flex;
+    flex-direction: row;
+}
+.container-c1 img{
+    max-height: 45px;
+}
+.container-c3 img{
+    max-height: 20px;
+}
+.container-c1.1{
+    position: relative;
+    left: 10px;
+}
+.container-c3{
+    display: flex;
+}
+.container-c3 p{
+    position: relative;
+    top: -14px;
+    left: 10px;
+}
+.container-c3 a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    padding-left: 15px;
+}
+.container-c2{
+    position: relative;
+    left: 15px;
+    top: -16px;
+}
+
