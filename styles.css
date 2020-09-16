@@ -82,7 +82,7 @@ aside {
     height: 94px;
 }
 h3 {
-    font-size: 25px;
+    font-size: 17px;
 }
 .dislike {
     max-width: 25px;
@@ -106,6 +106,7 @@ h3 {
     font-size: 17px;
     margin-top: 0px;
 }
+/*recommended videos section*/ 
 .recom-videos {
     margin-top: -17px;
 }
@@ -141,7 +142,11 @@ h3 {
     display: inline-block;
     border-bottom: 1px solid gray;
 }
-
+.vid-titles p{
+    color: #606060;
+    font-size: 13px;
+}
+/*profiles section*/
 .profile{
     position: relative;
     top: 7px;
