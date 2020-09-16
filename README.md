@@ -5,6 +5,7 @@
 > We are Microverse students doing the first project. We created a basic HTML Structure based on the famous video player platform Youtube.
 
 ![screenshot](./Screenshot.png)
+![screenshot](./Screenshot2.png)
 
 We created a header with a navbar with a search-bar. There is also a main video about how to embed videos in HTML which was very helpful and we also added a sidebar with a list of recommended videos.
 
