@@ -180,6 +180,7 @@ h3 {
 
 .bottom-section{
     border-bottom: 1px solid gray;
+    margin-bottom: 25px;
 }
 
 .vid-titles{
@@ -196,7 +197,7 @@ h3 {
 .container-c3 img{
     max-height: 20px;
 }
-.container-c1.1{
+.container-c1-1{
     position: relative;
     left: 10px;
 }
@@ -217,5 +218,11 @@ h3 {
     position: relative;
     left: 15px;
     top: -16px;
+}
+.container-c2 p{
+    margin-bottom: 0px;
+}
+.act-comment{
+    margin-top: 3px;
 }
 
