@@ -7,7 +7,7 @@
 ![screenshot](./Screenshot.png)
 ![screenshot](./Screenshot2.png)
 
-We created a header with a navbar with a search-bar. There is also a main video about how to embed videos in HTML which was very helpful and we also added a sidebar with a list of recommended videos.
+We created a header with a navbar with a search-bar. There is also a main video about how to embed videos in HTML which was very helpful and we also added a sidebar with a list of recommended videos. There is also a description section about the video as well as a comment section.
 
 ## Built With
 
