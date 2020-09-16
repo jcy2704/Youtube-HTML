@@ -118,7 +118,6 @@ h3 {
     margin: 5px 5px 5px 5px;
     max-width: 330px;
 }
-
 .thumnbails {
     display: flex;
     padding-right: 150px;
@@ -134,7 +133,6 @@ h3 {
     align-self: flex-end;
     justify-content: flex-end;
 }
-
 .main-section{
     padding-top: 25px;
 }
