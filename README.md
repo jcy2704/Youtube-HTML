@@ -5,18 +5,22 @@
 > We are Microverse students doing the first project. We created a basic HTML Structure based on the famous video player platform Youtube.
 
 ![screenshot](./Screenshot.png)
+![screenshot](./Screenshot2.png)
 
-We created a header with a navbar with a search-bar. There is also a main video about how to embed videos in HTML which was very helpful and we also added a sidebar with a list of recommended videos.
+We created a header with a navbar with a search-bar. There is also a main video about how to embed videos in HTML which was very helpful and we also added a sidebar with a list of recommended videos. There is also a description section about the video as well as a comment section.
 
 ## Built With
 
-- HTML
-- CSS
+- HTML5
+- CSS3
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/jcy2704/Youtube-HTML/44b44db259d4b524fdbd06ffdbb3050c467731ed/index.html)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Hello! We are Microverse students. We created a basic HTML project based on the video platform Youtube. It includes the HTML file as well as the CSS styling file. Below you will find the instructions on how you may see our work**
 
 
 To get a local copy up and running follow these simple example steps.
