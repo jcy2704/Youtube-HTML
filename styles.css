@@ -168,6 +168,16 @@ h3 {
     display: inline-block;
 }
 
+.profile-details h4{
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+.profile-details p{
+    font-size: 14px;
+    margin-top: 0px;
+}
+
 .profile-sec{
     vertical-align: center;
     padding-top: 16px;
@@ -177,10 +187,20 @@ h3 {
     width: 1031px;
 }
 
+.prof-panel h2{
+    font-size: 25px; 
+    margin-bottom: 5px;
+}
+
 .bot-prof-panel{
     display: flex;
     justify-content: space-between;
     height: 40px;
+}
+
+.view-div{
+    display: flex;
+    width: 90px;
 }
 
 .description{
