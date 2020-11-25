@@ -1,4 +1,4 @@
-/*top*/
+/* top */
 html {
   font-family: roboto, Arial, Helvetica, sans-serif;
   border: 25px;
@@ -28,18 +28,18 @@ html {
 
 .inp-search {
   width: 400px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .btn-search {
   height: 30px;
   width: 60px;
-  margin-left: 0px;
+  margin-left: 0;
   border-left: 0;
   border-width: 1px;
 }
 
-/*Main video section*/
+/* Main video section */
 .main-section {
   padding-top: 25px;
 }
@@ -56,7 +56,7 @@ html {
 
 .btn-sub {
   background-color: red;
-  border: 0px;
+  border: 0;
   width: 100px;
   height: 30px;
   float: right;
@@ -69,10 +69,10 @@ html {
 #views {
   text-align: left;
   font-size: 17px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
-/*sidebar with recommended videos*/
+/* sidebar with recommended videos */
 aside {
   width: 30%;
   padding-left: 15px;
@@ -99,7 +99,7 @@ h3 {
 }
 
 .video1 {
-  border: 0px;
+  border: 0;
 }
 
 .no-views {
@@ -128,7 +128,7 @@ h3 {
   font-size: 13px;
 }
 
-/*like buttons*/
+/* like buttons */
 .like {
   width: 30px;
   height: 30px;
@@ -152,18 +152,23 @@ h3 {
   padding: 10px;
 }
 
+.container-c3 a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+  padding-left: 15px;
+}
+
 .like-list li a {
   text-decoration: none;
   color: rgb(85, 85, 85);
 }
 
-
 .dislike {
   max-width: 25px;
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px 0 10px;
 }
 
-/*profiles section*/
+/* profiles section */
 .profile {
   position: relative;
   top: 7px;
@@ -177,16 +182,15 @@ h3 {
 
 .profile-details h4 {
   font-size: 20px;
-  margin: 0px 0px 0px 0px;
+  margin: 0 0 0 0;
 }
 
 .profile-details p {
   font-size: 14px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .profile-sec {
-  vertical-align: center;
   padding-top: 16px;
 }
 
@@ -221,9 +225,9 @@ h3 {
 }
 
 
-/*Comments section*/
+/* Comments section */
 .input-comment {
-  border: 0px;
+  border: 0;
   border-bottom: 1px solid gray;
   width: 900px;
   font-size: 16px;
@@ -269,12 +273,6 @@ h3 {
   left: 10px;
 }
 
-.container-c3 a {
-  text-decoration: none;
-  color: rgb(85, 85, 85);
-  padding-left: 15px;
-}
-
 .container-c2 {
   position: relative;
   left: 15px;
@@ -282,7 +280,7 @@ h3 {
 }
 
 .container-c2 p {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .act-comment {
